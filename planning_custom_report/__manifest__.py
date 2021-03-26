@@ -19,7 +19,7 @@
 
     'version': '14.0.1',
 
-    'depends': ['base','project','planning','timesheet_grid','project_forecast'],
+    'depends': ['base','project','planning','timesheet_grid','project_forecast','project_timesheet_forecast'],
 
     'data': [
         'report/timesheet_planning_report.xml',
