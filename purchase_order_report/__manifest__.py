@@ -25,6 +25,5 @@
     ],
 
     'demo': [
-        'demo/demo.xml',
     ],
 }
