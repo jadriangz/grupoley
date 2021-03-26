@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+                        <!-- Vista form modificada-->
+        <record id="project_task_type_form_custom" model="ir.ui.view">
+            <field name="name">project.task.type.form</field>
+            <field name="model">project.task.type</field>
+            <field name="inherit_id" ref="project.task_type_edit"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='is_closed']" position="after">
+                    <field name="x_in_validation"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,35 @@
+<odoo>
+                     <!-- Vista pivot creada dinámicamente-->
+    <record id="project_timesheet_forecast_report_view_pivot_custom" model="ir.ui.view">
+        <field name="name">project.timesheet.forecast.report.view.pivot.custom</field>
+        <field name="model">project.timesheet.forecast.report.analysis</field>
+        <field name="inherit_id" ref="project_timesheet_forecast.project_timesheet_forecast_report_view_pivot"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='difference']" position="after">
+                <field name="x_date_end"/>
+                <field name="x_validation_date"/>
+                <field name="x_in_validation" type="measure"/>
+                <field name="x_is_closed" type="measure"/>
+                <field name="x_initial_planned_hours" type="measure"/>
+                <field name="x_achived_task_in_time" type="measure"/>
+                <field name="x_achived_task_with_overtime" type="measure"/>
+            </xpath>
+        </field>
+    </record>
+
+                      <!-- Vista search creada dinámicamente-->
+    <record id="project_timesheet_forecast_report_view_search_custom" model="ir.ui.view">
+        <field name="name">timesheet.forecast.report.search</field>
+        <field name="model">project.timesheet.forecast.report.analysis</field>
+        <field name="inherit_id" ref="project_timesheet_forecast.project_timesheet_forecast_report_view_search"/>
+        <field name="arch" type="xml">
+            <group expand="1" string="Group By">
+                <filter string="Validation Date" name="validation_date_day"
+                        context="{'group_by':'x_validation_date:day'}"/>
+                <filter string="End Date" name="end_date_day"
+                        context="{'group_by':'x_date_end:day'}"/>
+            </group>
+        </field>
+    </record>
+
+</odoo>

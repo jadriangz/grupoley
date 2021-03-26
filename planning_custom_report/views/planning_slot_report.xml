@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+                     <!-- Vista pivot creada dinámicamente-->
+        <record id="planning_slot_report_view_pivot_custom" model="ir.ui.view">
+            <field name="name">planning.slot.report.pivot</field>
+            <field name="model">planning.slot</field>
+            <field name="inherit_id" ref="planning.planning_slot_report_view_pivot"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='start_datetime']" position="after">
+                    <field name="x_is_closed" type="measure"/>
+                    <field name="x_in_validation" type="measure"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>
