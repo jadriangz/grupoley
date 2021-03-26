@@ -1,0 +1,34 @@
+<odoo>
+    <data>
+
+        <record id="product_pricelist_view_custom" model="ir.ui.view">
+            <field name="name">product.pricelist.form</field>
+            <field name="model">product.pricelist</field>
+            <field name="inherit_id" ref="product.product_pricelist_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form/sheet" position="before">
+                    <header>
+                        <button name="button_confirm" type="object" states="draft" string="Confirm Order" id="draft_confirm"/>
+                        <button name="button_approve" type="object" states='authorize' string="Approve Order" class="oe_highlight" groups="sales_team.group_sale_manager"/>
+                        <field name="state" widget="statusbar" statusbar_visible="draft,authorize,approved" readonly="1"/>
+                    </header>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="product_pricelist_view_kanban_custom" model="ir.ui.view">
+            <field name="name">product.pricelist.kanban</field>
+            <field name="model">product.pricelist</field>
+            <field name="inherit_id" ref="product.product_pricelist_view_kanban"/>
+            <field name="arch" type="xml">
+                <xpath expr="//kanban[1]" position="attributes">
+                    <attribute name="default_group_by">state</attribute>
+                    <attribute name="quick_create">false</attribute>
+                    <attribute name="default_order">state desc</attribute>
+                    <attribute name="records_draggable">false</attribute>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>
