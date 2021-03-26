@@ -1,0 +1,158 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_delivery_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20210124\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-22 01:01+0000\n"
+"PO-Revision-Date: 2021-02-21 18:06-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: stock_delivery_report
+#: model_terms:ir.ui.view,arch_db:stock_delivery_report.report_multiple_delivery_slip
+msgid ""
+"<br/>\n"
+"                    <br/>\n"
+"                    INFORMACIÓN DEL PROVEEDOR"
+msgstr ""
+
+#. module: stock_delivery_report
+#: model_terms:ir.ui.view,arch_db:stock_delivery_report.report_multiple_delivery_slip
+msgid ""
+"<br/>\n"
+"                    <br/>\n"
+"                    MERCANCÍA"
+msgstr ""
+
+#. module: stock_delivery_report
+#: model_terms:ir.ui.view,arch_db:stock_delivery_report.report_multiple_delivery_slip
+msgid ""
+"<br/>\n"
+"                    <br/>\n"
+"                    VALES DE ENTREGA"
+msgstr ""
+
+#. module: stock_delivery_report
+#: model_terms:ir.ui.view,arch_db:stock_delivery_report.report_multiple_delivery_slip
+msgid "<strong>Cantidad</strong>"
+msgstr ""
+
+#. module: stock_delivery_report
+#: model_terms:ir.ui.view,arch_db:stock_delivery_report.report_multiple_delivery_slip
+msgid "<strong>Folio</strong>"
+msgstr ""
+
+#. module: stock_delivery_report
+#: model_terms:ir.ui.view,arch_db:stock_delivery_report.report_multiple_delivery_slip
+msgid "<strong>Orden de compra</strong>"
+msgstr ""
+
+#. module: stock_delivery_report
+#: model_terms:ir.ui.view,arch_db:stock_delivery_report.report_multiple_delivery_slip
+msgid "<strong>Precio</strong>"
+msgstr ""
+
+#. module: stock_delivery_report
+#: model_terms:ir.ui.view,arch_db:stock_delivery_report.report_multiple_delivery_slip
+msgid "<strong>Producto</strong>"
+msgstr ""
+
+#. module: stock_delivery_report
+#: model_terms:ir.ui.view,arch_db:stock_delivery_report.report_multiple_delivery_slip
+msgid "<strong>Referencia</strong>"
+msgstr ""
+
+#. module: stock_delivery_report
+#: model_terms:ir.ui.view,arch_db:stock_delivery_report.report_multiple_delivery_slip
+msgid "<strong>id</strong>"
+msgstr ""
+
+#. module: stock_delivery_report
+#: model:ir.model.fields,field_description:stock_delivery_report.field_report_stock_delivery_report_report_multiple_delivery_slip__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: stock_delivery_report
+#: model:ir.model.fields,field_description:stock_delivery_report.field_report_stock_delivery_report_report_multiple_delivery_slip__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: stock_delivery_report
+#: model:ir.model.fields,field_description:stock_delivery_report.field_report_stock_delivery_report_report_multiple_delivery_slip__display_name
+#: model:ir.model.fields,field_description:stock_delivery_report.field_stock_picking__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: stock_delivery_report
+#: model:ir.model.fields,field_description:stock_delivery_report.field_report_stock_delivery_report_report_multiple_delivery_slip__id
+#: model:ir.model.fields,field_description:stock_delivery_report.field_stock_picking__id
+msgid "ID"
+msgstr ""
+
+#. module: stock_delivery_report
+#: code:addons/stock_delivery_report/reports/delivery_slip_report.py:0
+#, python-format
+msgid ""
+"It is not possible to generate the report, only a delivery slip must be "
+"selected"
+msgstr ""
+"No es posible generar el reporte, por favor seleccione solo un vale de "
+"entrega"
+
+#. module: stock_delivery_report
+#: model:ir.model.fields,field_description:stock_delivery_report.field_report_stock_delivery_report_report_multiple_delivery_slip____last_update
+#: model:ir.model.fields,field_description:stock_delivery_report.field_stock_picking____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: stock_delivery_report
+#: model:ir.model.fields,field_description:stock_delivery_report.field_report_stock_delivery_report_report_multiple_delivery_slip__write_uid
+msgid "Last Updated by"
+msgstr "Ultima modificación por"
+
+#. module: stock_delivery_report
+#: model:ir.model.fields,field_description:stock_delivery_report.field_report_stock_delivery_report_report_multiple_delivery_slip__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización el"
+
+#. module: stock_delivery_report
+#: model_terms:ir.ui.view,arch_db:stock_delivery_report.report_multiple_delivery_slip
+msgid "Logo"
+msgstr ""
+
+#. module: stock_delivery_report
+#: model:ir.actions.report,name:stock_delivery_report.report_one_delivery_slip_with_multiple_orders
+msgid "Multiple Orders"
+msgstr "Múltiples Ordenes"
+
+#. module: stock_delivery_report
+#: model:ir.model,name:stock_delivery_report.model_report_stock_delivery_report_report_multiple_delivery_slip
+msgid "Multiples purchase orders and one delivery slip"
+msgstr "Múltiples ordenes en un solo vale de entrega"
+
+#. module: stock_delivery_report
+#: model:ir.model.fields,field_description:stock_delivery_report.field_stock_picking__x_order_folio
+msgid "Order Folio"
+msgstr "Folio de orden de compra"
+
+#. module: stock_delivery_report
+#: model:ir.model.fields,help:stock_delivery_report.field_stock_picking__x_order_folio
+msgid ""
+"This field help to group different purchase orders in one delivery slip"
+msgstr ""
+"Este campo ayuda a la agrupación de diferentes ordenes de compra en un "
+"solo vale de entrega"
+
+#. module: stock_delivery_report
+#: model:ir.model,name:stock_delivery_report.model_stock_picking
+msgid "Transfer"
+msgstr "Albarán"
