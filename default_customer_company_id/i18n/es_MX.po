@@ -1,0 +1,43 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* default_customer_company_id
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20210124\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-03 16:33+0000\n"
+"PO-Revision-Date: 2021-03-03 09:36-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: default_customer_company_id
+#: model:ir.model.fields,field_description:default_customer_company_id.field_res_partner__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: default_customer_company_id
+#: model:ir.model,name:default_customer_company_id.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: default_customer_company_id
+#: model:ir.model.fields,field_description:default_customer_company_id.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: default_customer_company_id
+#: model:ir.model.fields,field_description:default_customer_company_id.field_res_partner__id
+msgid "ID"
+msgstr ""
+
+#. module: default_customer_company_id
+#: model:ir.model.fields,field_description:default_customer_company_id.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
