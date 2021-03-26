@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_product_unspsc_catalog,access.product.unspsc.catalog,model_product_unspsc_code,stock.group_stock_manager,1,1,1,1

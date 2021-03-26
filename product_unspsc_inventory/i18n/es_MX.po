@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_unspsc_inventory
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20210124\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-03 16:39+0000\n"
+"PO-Revision-Date: 2021-03-03 09:41-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: product_unspsc_inventory
+#: model_terms:ir.ui.view,arch_db:product_unspsc_inventory.product_unspsc_view_form
+msgid "Applies to"
+msgstr "Aplica a"
+
+#. module: product_unspsc_inventory
+#: model_terms:ir.ui.view,arch_db:product_unspsc_inventory.product_unspsc_view_form
+msgid "Code"
+msgstr "Código"
+
+#. module: product_unspsc_inventory
+#: model_terms:ir.actions.act_window,help:product_unspsc_inventory.action_product_unspsc_catalog
+msgid "Create a new product with code  !"
+msgstr "Crea un nuevo producto con su código !"
+
+#. module: product_unspsc_inventory
+#: model:ir.model.fields,field_description:product_unspsc_inventory.field_product_unspsc_code__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: product_unspsc_inventory
+#: model:ir.model.fields,field_description:product_unspsc_inventory.field_product_unspsc_code__id
+msgid "ID"
+msgstr ""
+
+#. module: product_unspsc_inventory
+#: model:ir.model.fields,field_description:product_unspsc_inventory.field_product_unspsc_code____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: product_unspsc_inventory
+#: model_terms:ir.ui.view,arch_db:product_unspsc_inventory.product_unspsc_view_form
+msgid "Name"
+msgstr "Nombre"
+
+#. module: product_unspsc_inventory
+#: model_terms:ir.ui.view,arch_db:product_unspsc_inventory.product_unspsc_view_form
+#: model_terms:ir.ui.view,arch_db:product_unspsc_inventory.product_unspsc_view_tree
+msgid "Product UNSPSC"
+msgstr "Producto con código SAT"
+
+#. module: product_unspsc_inventory
+#: model:ir.model,name:product_unspsc_inventory.model_product_unspsc_code
+msgid "Product and UOM Codes from UNSPSC"
+msgstr ""
+"Códigos de producto y unidad de medida provienen del Código de Productos y "
+"Servicios Estándar de las Naciones Unidas (UNSPSC)"
+
+#. module: product_unspsc_inventory
+#: model:ir.ui.menu,name:product_unspsc_inventory.product_unspsc_catalog
+msgid "Products/SAT Services"
+msgstr "Productos/Servicios SAT"
+
+#. module: product_unspsc_inventory
+#: model:ir.actions.act_window,name:product_unspsc_inventory.action_product_unspsc_catalog
+msgid "UNSPSC Catalog"
+msgstr "Catálogo de códigos SAT"

@@ -1,0 +1,58 @@
+<odoo>
+    <data>
+        <record id="product_unspsc_view_tree" model="ir.ui.view">
+            <field name="name">product.unspsc.view.tree</field>
+            <field name="model">product.unspsc.code</field>
+            <field name="arch" type="xml">
+
+                <tree string="Product UNSPSC" create="true" delete="true" edit="false" editable="bottom" multi_edit="1">
+                    <field name="code"/>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="product_unspsc_view_form" model="ir.ui.view">
+            <field name="name">product.unspsc.view.form</field>
+            <field name="model">product.unspsc.code</field>
+            <field name="arch" type="xml">
+                <form string="Product UNSPSC" create="true" delete="true" edit="true">
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" readonly="1"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="name" placeholder="Name"/>
+                                <field name="code" placeholder="Code" string="Code"/>
+                            </group>
+                            <group>
+                                <field name="applies_to" placeholder="Applies to"/>
+                                <field name="active"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+        <record id="action_product_unspsc_catalog" model="ir.actions.act_window">
+            <field name="name">UNSPSC Catalog</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">product.unspsc.code</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create a new product with code  !
+                </p>
+            </field>
+        </record>
+
+
+        <menuitem id="product_unspsc_catalog" name="Products/SAT Services" parent="stock.menu_stock_inventory_control"
+                  action="action_product_unspsc_catalog"/>
+    </data>
+</odoo>
