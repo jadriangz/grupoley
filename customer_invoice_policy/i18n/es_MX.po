@@ -1,0 +1,73 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* customer_invoice_policy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20210124\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-03 17:16+0000\n"
+"PO-Revision-Date: 2021-03-03 10:19-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: customer_invoice_policy
+#: model:ir.model,name:customer_invoice_policy.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: customer_invoice_policy
+#: model:ir.model.fields.selection,name:customer_invoice_policy.selection__res_partner__x_invoice_policy__delivery
+msgid "Delivered quantities"
+msgstr "Cantidades entregadas"
+
+#. module: customer_invoice_policy
+#: model:ir.model.fields,field_description:customer_invoice_policy.field_res_partner__display_name
+#: model:ir.model.fields,field_description:customer_invoice_policy.field_sale_order_line__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: customer_invoice_policy
+#: model:ir.model.fields,field_description:customer_invoice_policy.field_res_partner__id
+#: model:ir.model.fields,field_description:customer_invoice_policy.field_sale_order_line__id
+msgid "ID"
+msgstr ""
+
+#. module: customer_invoice_policy
+#: model:ir.model.fields,field_description:customer_invoice_policy.field_res_partner__x_invoice_policy
+#: model:ir.model.fields,field_description:customer_invoice_policy.field_res_users__x_invoice_policy
+#: model_terms:ir.ui.view,arch_db:customer_invoice_policy.customer_invoice_option_view
+msgid "Invoicing Policy"
+msgstr "Política de facturación"
+
+#. module: customer_invoice_policy
+#: model:ir.model.fields,field_description:customer_invoice_policy.field_res_partner____last_update
+#: model:ir.model.fields,field_description:customer_invoice_policy.field_sale_order_line____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: customer_invoice_policy
+#: model:ir.model.fields,help:customer_invoice_policy.field_res_partner__x_invoice_policy
+#: model:ir.model.fields,help:customer_invoice_policy.field_res_users__x_invoice_policy
+msgid ""
+"Ordered Quantity: Invoice quantities ordered by the customer.\n"
+"Delivered Quantity: Invoice quantities delivered to the customer."
+msgstr ""
+"Cantidad Ordenada: Facturar cantidades ordenadas por el cliente.\n"
+"Cantidad Entregada: Facturar cantidades entregadas al cliente."
+
+#. module: customer_invoice_policy
+#: model:ir.model.fields.selection,name:customer_invoice_policy.selection__res_partner__x_invoice_policy__order
+msgid "Ordered quantities"
+msgstr "Cantidades ordenadas"
+
+#. module: customer_invoice_policy
+#: model:ir.model,name:customer_invoice_policy.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea de pedido de venta"
