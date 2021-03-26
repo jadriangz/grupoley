@@ -1,0 +1,44 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_avoid_multiple_pricelist
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20210124\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-10 17:22+0000\n"
+"PO-Revision-Date: 2021-03-10 10:24-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: sale_avoid_multiple_pricelist
+#: model:ir.model.fields,field_description:sale_avoid_multiple_pricelist.field_product_pricelist__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: sale_avoid_multiple_pricelist
+#: model:ir.model.fields,field_description:sale_avoid_multiple_pricelist.field_product_pricelist__id
+msgid "ID"
+msgstr ""
+
+#. module: sale_avoid_multiple_pricelist
+#: code:addons/sale_avoid_multiple_pricelist/models/product_pricelist.py:0
+#, python-format
+msgid "It is not possible add multiple pricelist in the same product"
+msgstr "No es posible añadir múltiples configuraciones de precio en un mismo producto."
+
+#. module: sale_avoid_multiple_pricelist
+#: model:ir.model.fields,field_description:sale_avoid_multiple_pricelist.field_product_pricelist____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: sale_avoid_multiple_pricelist
+#: model:ir.model,name:sale_avoid_multiple_pricelist.model_product_pricelist
+msgid "Pricelist"
+msgstr "Tarifa"
