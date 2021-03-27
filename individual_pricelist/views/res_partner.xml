@@ -1,0 +1,21 @@
+<odoo>
+  <data>
+
+    <record id="view_partner_property_form_custom" model="ir.ui.view">
+      <field name="name">res.partner.product.property.form.inherit</field>
+      <field name="model">res.partner</field>
+      <field name="inherit_id" ref="product.view_partner_property_form"/>
+      <field name="groups_id" eval="[(4, ref('product.group_product_pricelist'))]"/>
+      <field name="arch" type="xml">
+        <xpath expr="//field[@name='property_product_pricelist']" position="attributes">
+          <attribute name="attrs">{'invisible': [('name', '=', 'False')]}</attribute>
+        </xpath>
+        <xpath expr="//div[@name='parent_pricelists']" position="attributes">
+          <attribute name="attrs">{'invisible': [('name', '!=', 'False')]}</attribute>
+        </xpath>
+      </field>
+
+    </record>
+
+  </data>
+</odoo>
